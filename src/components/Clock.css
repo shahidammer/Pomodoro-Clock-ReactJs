@@ -1,37 +1,32 @@
-
-
-.PodomoroClock{
+#Clock{
     text-align: center;
     color: white;
 }
-#ClockHeader {
+#ClockTitle {
     margin-top: 50px;
     font-weight: bold;
     font-family: 'Pacifico';
     font-size: 28px;
 }
-
-#sessionBtn,#breakBtn{
-    margin: 0 50px 0 50px;
+#SessionStyle,#BreakStyle{
     display: inline-block;
-
+    margin: 0 100px 0 100px;
 }
-#sessionBtn button,#breakBtn button{
+
+#SessionStyle label,#BreakStyle label{
+    font-size: 20px;
+    padding: 5px;
+}
+.SessionBtn, .BreakBtn{
     font-size: 16px;
     background-color: #222;
     color: white;
-    line-height: 50px;
     border: none;
 }
-#breakBtn button:focus,#sessionBtn button:focus{
+ button:focus{
     outline: none;
-
-
 }
-#valueLabel{
-    padding: 5px;
-    font-size: 26px;
-}
+
 
 #timer{
     position: relative;
@@ -46,9 +41,8 @@
     font-size: 3em;
     color:#222;
     background-color: white;
-
-
 }
+
 #filler {
   content: '';
   position: absolute;
